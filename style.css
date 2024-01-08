@@ -76,7 +76,7 @@ html,body{
     font-weight: 700;
 }
 .heroimg{
-    background-image: url(image/image\ hero.png);
+    background-image: url(image/image\ hero.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 60vh;
