@@ -118,7 +118,7 @@ html,body{
    position: absolute;
 }
 #stroke{
-    color: #222222;
+    color: #414040;
     font-size: 120px;
     letter-spacing: 12px;
     -webkit-text-fill-color: transparent;
@@ -159,10 +159,12 @@ font-weight: 500;
 }
 .lefttxt h4{
     color: #222222;
-    font-weight: 500;
+    font-weight: 600;
 }
 .lefttxt h1{
     color: #9112d1;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .righttxt{
@@ -176,11 +178,209 @@ text-align: left;
 }
 .righttxt h1{
     color: #9112d1;
+    font-size: 40px;
+    font-weight: 900;
 }
 .righttxt h4{
     color: #222222;
-    font-weight: 500;
+    font-weight: 600;
 text-align: left;
 }
 
 /* projects */
+
+.mainprojects{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+.projects{
+    height: 20vh;
+    width: 100vw;background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.projects h1 {
+   position: absolute;
+}
+#strokepr{
+    color: #414040;
+    font-size: 120px;
+    letter-spacing: 12px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+#upperpr{
+    color: #610191;
+    font-size: 60px;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    text-shadow: 2px 0px 10px #9112d1;
+}
+.selector{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    /* margin-top: 3vh; */
+    color: #222222;
+}
+#slct{
+    border-bottom: 8px solid #610191;
+    border-radius: 5px;
+}
+
+.projbox{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    gap: 2vw;
+    
+}
+#prj1{
+    height: 40vh;
+    width: 30vw;
+    background-color: #9112d1;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    box-shadow: #414040 2px 2px 5px;
+}
+#prj2{
+    height: 40vh;
+    width: 30vw;
+    background-color: #9112d1;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    box-shadow: #414040 2px 2px 5px;
+    
+}
+#prj3{
+    height: 40vh;
+    width: 30vw;
+    background-color: #9112d1;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    box-shadow: #414040 2px 2px 5px;
+   
+}
+#prj4{
+    height: 40vh;
+    width: 30vw;
+    background-color: #9112d1;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    box-shadow: #414040 2px 2px 5px;
+    
+}
+.prjname{
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.prjname h5{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+/* skillls */
+#sklsection{
+    height: 100vh;
+    width: 100%;
+    margin-top: 20vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.sklheading{
+    height: 20vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    
+    
+}
+.sklheading h1 {
+   position: absolute;
+}
+#strokeskl{
+    color: #414040;
+    font-size: 20vh;
+    letter-spacing: 12px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+#upperskl{
+    color: #610191;
+    font-size: 8vh;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    text-shadow: 2px 0px 10px #9112d1;
+}
+
+.skldown{
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.innerdiv1{
+    height: 80vh;
+    width: 32%;
+    background-image: url(image/skill\ graph.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 4vh;
+   scale: .8;
+    
+    
+}
+.innerdiv2{
+    height: 70vh;
+    width: 35%;
+    /* background-color: #9112d1; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.innerdiv2 h4{
+margin-top: 4vh;
+font-weight: 500;
+text-align: left;
+}
+
+
+/* process */
+
